@@ -15,4 +15,4 @@ docker run --rm --link jenkins -v /tmp/autojobs:/var/jenkins-autojobs arienkock/
 
 
 
-This command will run autojobs, link the jenkins container (so you can access it using http://jenkins:8080 in you `*-config.yaml`), and mount the host dir `/tmp/autojobs` which contains the yaml config files.
+This command will run autojobs, link the jenkins container (so you can access it using http://jenkins:8080 in your `*-config.yaml`), and mount the host dir `/tmp/autojobs` which contains the yaml config files.
